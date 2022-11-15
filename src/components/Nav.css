@@ -1,0 +1,49 @@
+/* nav 설정 */
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  z-index: 1;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition-timing-function: ease-in;
+  transition: all 0.4s;
+  box-sizing: border-box;
+}
+
+/* nav 배경 */
+.nav__black {
+  background-color: #111;
+}
+
+/* Netflix logo */
+.nav__logo {
+  position: fixed;
+  left: 40px;
+  width: 80px;
+  object-fit: contain;
+}
+
+/* profile */
+.nav__avatar {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  right: 40px;
+}
+
+/* Search */
+.nav__input {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0); /* 위치에서 미세조정 */
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  border: none;
+}
